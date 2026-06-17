@@ -1,0 +1,9 @@
+user_id,username,operation_time,action,target_object,operator_id,approver_id,account_status,ip_address,role_name
+U001,Alice,2025-03-03 10:20:00,view_report,finance_report,U001,M001,active,10.10.1.11,auditor
+U002,Bob,2025-03-04 22:15:00,grant_admin,permission_center,U002,M002,active,10.10.1.12,system_admin
+U003,Cara,2025-03-05 14:30:00,export,customer_report,U003,M003,active,10.10.1.13,operator
+U003,Cara,2025-03-05 14:30:00,export,customer_report,U003,M003,active,10.10.1.13,operator
+U004,David,2025-03-06 11:00:00,delete,user_table,U004,M004,disabled,10.10.1.14,admin
+U005,Eva,2025-03-07 15:45:00,approve_payment,payment_order,U005,U005,active,10.10.1.15,finance_manager
+U006,Frank,2026-01-02 09:30:00,modify_config,system_config,U006,M006,active,10.10.1.16,system_admin
+,Grace,not-a-date,delete,access_policy,U007,M007,active,10.10.1.17,security_admin
